@@ -1,0 +1,47 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width:200px;
+    height:100px;
+    text-align: center;
+    background-color: blue;
+    border:2px solid green;
+    margin:14px;
+    display:inline-block;
+    border-radius: 10px;
+    
+
+}
+
+div:nth-of-type(2n){
+    background-color: pink;
+}
+
+div:nth-of-type(3n){
+    background-color: red;
+}
+
+#one{
+    transform:rotate(45deg);
+    
+}
+#two{
+    transform:scale(0.5);
+}
+#three{
+    transform:skew(30deg);
+}
+#four{
+    box-shadow: 2px 4px 10px black;
+}
+#five{
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630");
+    background-size: cover;
+    box-shadow: 2px 5px black;
+    transition:1s;
+    position:relative;
+}
+#five:hover{
+box-shadow: 0 8px 16px black;
+}
